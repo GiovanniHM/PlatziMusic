@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_tracusa">
+    </ImageView>
+
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_person_24"
+        android:hint="@string/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:hint="@string/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </Space>
+    <Button
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
