@@ -9,7 +9,7 @@
         android:layout_width="160dp"
         android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo_tracusa"></ImageView>
+        android:src="@drawable/logo_tracusa" />
 
     <EditText
         android:layout_width="match_parent"
@@ -17,7 +17,10 @@
         android:layout_marginTop="120dp"
         android:drawableStart="@drawable/ic_person_24"
         android:drawablePadding="12dp"
-        android:hint="@string/usuario"></EditText>
+        android:hint="@string/usuario"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
 
     <EditText
         android:layout_width="match_parent"
@@ -25,19 +28,14 @@
         android:layout_marginTop="180dp"
         android:drawableStart="@drawable/ic_lock_24"
         android:drawablePadding="12dp"
-        android:hint="@string/txt_password"></EditText>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"></Space>
-
+        android:hint="@string/txt_password"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
+        android:layout_margin="12dp"
         android:background="@color/colorPrimary"
         android:text="@string/txt_login">
 
