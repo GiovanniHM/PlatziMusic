@@ -15,9 +15,9 @@
 
     <EditText
         android:id="@+id/editText"
+        style="@style/AppTheme.EditTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:drawableStart="@drawable/ic_person_24"
         android:hint="@string/usuario"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:drawableStart="@drawable/ic_lock_24"
-        android:drawablePadding="12dp"
         android:hint="@string/txt_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

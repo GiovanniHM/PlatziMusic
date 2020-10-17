@@ -7,4 +7,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+<!--    Estilo hijo-->
+    <style name="AppTheme.EditTextStyle" parent="AppTheme">
+        <item name="android:textSize">48sp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
 </resources>
