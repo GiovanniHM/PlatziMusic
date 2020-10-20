@@ -15,7 +15,7 @@
 
     <EditText
         android:id="@+id/editText"
-        style="@style/AppTheme.EditTextStyle"
+        android:layout_margin="12dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_person_24"
